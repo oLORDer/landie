@@ -1,3 +1,9 @@
-.list {
-  color: blue;
+.header {
+  padding-top: 12px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

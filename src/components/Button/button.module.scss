@@ -1,0 +1,24 @@
+.btn {
+  color: #fff;
+  background-color: #111b47;
+  padding: 5px 50px;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.btnLigh {
+  composes: btn;
+  background-color: transparent;
+  color: #091133;
+}
+
+.small {
+  padding-left: 17px;
+  padding-right: 17px;
+  width: 110px;
+}
