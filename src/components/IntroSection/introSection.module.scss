@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.descrDiv {
+  width: 450px;
+}
+
+.item:last-child button {
+  margin-top: 40px;
+}
